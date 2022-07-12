@@ -1,12 +1,12 @@
 {
-  "name": "project_name",
+  "name": "ecommerce",
   "version": "1.0.0",
   "description": "project_description",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "npx tailwindcss -i ./src/css/style.css -o ./dist/css/style.css",
-    "minify": "npx tailwindcss -o ./dist/css/style.css --minify"
+    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --watch",
+    "build": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css",
+    "minify": "tailwindcss -o ./dist/css/style.css --minify"
   },
   "keywords": [],
   "author": "",
