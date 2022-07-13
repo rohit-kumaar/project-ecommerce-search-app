@@ -19,7 +19,29 @@
     <main class="main">
       <section>
         <div class="container px-4 mx-auto border border-red-600 flex">
-          <aside class="border-yellow-600 border-2 w-1/4">Aside</aside>
+          <aside id="filters" class="border-yellow-600 border-2 w-1/4" >
+            <!-- brand list  -->
+            <ul id="brand" class="">
+              <h2 class="font-bold">Brand</h2>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Redmi</span></li>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Oppo</span></li>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Samsung</span></li>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Nokia</span></li>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Apple</span></li>
+              <li><input type="checkbox" class="brand" /><span class="px-1">Realme</span></li>
+            </ul>
+
+            <!-- ram list  -->
+            <ul id="ram" >
+              <h2 class="font-bold">RAM</h2>
+              <li><input type="checkbox" class="ram" value="2GB" /><span class="px-1">2GB</span></li>
+              <li><input type="checkbox" class="ram" value="4GB" /><span class="px-1">4GB</span></li>
+              <li><input type="checkbox" class="ram" value="6GB" /><span class="px-1">6GB</span></li>
+              <li><input type="checkbox" class="ram" value="8GB" /><span class="px-1">8GB</span></li>
+              <li><input type="checkbox" class="ram" value="12GB" /><span class="px-1">12GB</span></li>
+              <li><input type="checkbox" class="ram" value="16GB" /><span class="px-1">16GB</span></li>
+            </ul>
+          </aside>
 
           <div class="cards border-blue-600 border-2 w-3/4" id="cards"></div>
         </div>
