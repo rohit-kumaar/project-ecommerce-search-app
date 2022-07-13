@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  display: flex;
+  gap: 16px;
+}
+
+.img {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+}
+
+.product__details {
+  padding: 16px;
+}
+
+.product__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product__price {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-block: 10px;
+  color: #b72525;
+}
+
+.product__symbol {
+  font-size: 13px;
+}
+
+.product__rupees {
+  font-size: 18px;
+  font-weight: 600;
+}

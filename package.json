@@ -4,9 +4,9 @@
   "description": "project_description",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --watch",
-    "build": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css",
-    "minify": "tailwindcss -o ./dist/css/style.css --minify"
+    "watch": "tailwindcss -i ./src/css/style.css -o ./src/dist/style.css --watch",
+    "build": "tailwindcss -i ./src/css/style.css -o ./src/dist/style.css",
+    "minify": "tailwindcss -o ./src/dist/style.css --minify"
   },
   "keywords": [],
   "author": "",

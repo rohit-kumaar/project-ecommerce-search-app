@@ -1,4 +1,4 @@
-import { products } from "./src/js/products.js";
+import { product } from "./src/js/product.js";
 
 /* This is a function that is listening for the DOM to be ready. */
 document.addEventListener("DOMContentLoaded", () => {
@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const initApp = () => {
-  // products();
+  product();
 };
