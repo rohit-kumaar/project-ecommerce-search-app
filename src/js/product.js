@@ -8,7 +8,11 @@ export function filter() {
     (n) => n.value
   );
 
-  product(data.filter((n) => !ram.length || ram.includes(n.ram)));
+  const brand = [...filters.querySelectorAll("#brand input:checked")].map(
+    (n) => n.value
+  );
+
+  product(data.filter((n) => (!brand.length || brand.includes(n.brand)) && (!ram.length || ram.includes(n.ram))));
 }
 
 export function product(cards) {
