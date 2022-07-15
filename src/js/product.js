@@ -1,7 +1,7 @@
 import { data } from "./data.js";
 
 const filters = document.querySelector("#filters");
-filters.addEventListener("input", filter);
+filters.addEventListener("click", filter);
 
 export function filter() {
   const ram = [...filters.querySelectorAll("#ram input:checked")].map(
